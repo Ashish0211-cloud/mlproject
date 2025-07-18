@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    min-height: 100vh;
+}
+
+.login {
+    max-width: 600px;
+    margin: auto;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+legend {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background: #ff4b2b;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background: #ff416c;
+    transform: scale(1.05);
+}
+
+select, input[type="number"] {
+    width: 100%;
+}
+
+h2 {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
